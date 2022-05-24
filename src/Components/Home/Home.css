@@ -1,0 +1,29 @@
+.home {
+  background-image: url('../../Assets/index-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30vh;
+  width: 100%;
+  height: 82vh;
+  color: white;
+}
+
+.section-home h1{
+  font-family: Helvetica 25 UltraLight;
+  text-transform: uppercase;
+  font-size: 50pt;
+  font-weight: lighter;
+}
+.section-home p{
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-size: 22pt;
+  font-weight: 200;
+}
+

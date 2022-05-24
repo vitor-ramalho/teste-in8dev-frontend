@@ -1,0 +1,12 @@
+.footer-container{
+  background-image: url('../../Assets/rodape-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 70px;
+  color: white;
+}
+
+.footer-container p{
+  margin-top: 20px;
+}

@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  background-color: #29abe2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  margin-top: 79px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: Helvetica, sans-serif;
+}
+
+.register-container{
+  width: 200px;
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  color: white;
+}
+
+.btn-register{
+  align-items: center;
+  width: 240px;
+  height: 60px;
+  background-color: #012d51;
+  color: #29abe2;
+  margin: 50px;
+  margin-top: 130px;
+  font-weight: 100;
+  font-size: xx-large;
+  text-transform: uppercase;
+}

@@ -1,0 +1,50 @@
+.logo{
+  width: 90px;
+  height: 70px;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container{
+  margin-left: 200px;
+  padding-top: 8px;
+}
+
+.itens-container{
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 220px;
+}
+
+.nav-item{
+  align-self: center;
+  font-family: Roboto sans-serif;
+  color: white;
+  transition: underline 5s;
+}
+
+.nav-item::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
